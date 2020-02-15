@@ -3,7 +3,11 @@ from tkinter import ttk
 
 
 class login:
+""" Inicialización y constructor para la ventana,consus 
+Botones y sus entras para loguearse y salir"""
+
     def __init__(self):
+
         self.ventana1=tk.Tk()
         self.label1=ttk.Label(text="Ingrese nombre de usuario:")
         self.label1.grid(column=0, row=0)
