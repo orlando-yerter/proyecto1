@@ -20,7 +20,7 @@ class login:
         self.ventana1.mainloop()
 
     def ingresar(self):
-        if self.dato1.get()=="asd" and self.dato2.get()=="gatopepe":
+        if self.dato1.get()=="asd" and self.dato2.get()=="123":
             self.ventana1.title("Correcto")
         else:
             self.ventana1.title("Incorrecto")
