@@ -1,1 +1,1 @@
-Proyecto aplicacion destinado aser soporte para un comercio ,modulo axeso para ingresar
+Proyecto aplicacion destinado a ser soporte para un comercio ,modulo axeso para ingresar
