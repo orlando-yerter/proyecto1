@@ -4,7 +4,7 @@ from tkinter import ttk
 
 class login:
 """ Inicialización y constructor para la ventana,consus 
-Botones y sus entras para loguearse y salir"""
+Botones y sus entrys para loguearse y salir"""
 
     def __init__(self):
 
