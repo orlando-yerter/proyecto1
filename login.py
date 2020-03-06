@@ -23,7 +23,7 @@ class Axeso:
         self.boton1=ttk.Button(self.vent1, text="Ingresar", command=self.verificar)
         self.boton1.grid(column=1, row=2)
  ###$$$$$$$$$$$$###$$$$$$       
-        self.boton2=ttk.Button(self.vent1,text="salir",command=quit)
+        self.boton2=tk.Button(self.vent1,text="salir",command=self.vent1.destroy)
         self.boton2.grid(column=0,row=2)
  #loop #####$$$$$$$$$$$$       
         self.vent1.mainloop()
