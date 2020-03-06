@@ -7,6 +7,7 @@ class Axeso:
         
         
         self.vent1=tk.Tk()
+        self.vent1.title("axeso")
         self.e1=ttk.Label(text=" NOMBRE:")
         self.e1.grid(column=0, row=0)
         self.dato1=tk.StringVar()
