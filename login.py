@@ -33,10 +33,13 @@ class Axeso:
 ########$#$$$$#######
     def verificar(self):
         if self.dato1.get()=="asd" and self.dato2.get()=="123":
-###$$$$$$$$$$$$$$$$$$$$$$           
-            pass
+###$$$$$$$$$$$$$$$$$$$$$$
+        
+            self.vent1.withdraw()
+            import  index
+            
+            
             
         else:
-            
-            pass
+            self.vent1.title("incorrecto")
             
